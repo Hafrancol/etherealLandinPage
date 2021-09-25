@@ -52,9 +52,17 @@ header {
   display: inline-block;
   width: 40px;
   height: 40px;
+	margin-top: 15px;
+	margin-bottom: 25px;
   border-radius: 50%;
-  background-color: #ffe4b4;
+  background-color: #fff;
 	text-align: center;
+	
+	// & / this symbol means the father class. ".header-arrow-icon" 
+	&:hover
+	{
+		background-color: #ffe4b4;
+	}
 }
 
 .fa-angle-right
@@ -62,3 +70,4 @@ header {
 	padding-top: 11px;	
 	font-size: 1.6rem;
 }
+

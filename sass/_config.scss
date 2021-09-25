@@ -18,6 +18,13 @@
 	margin: 0;
 }
 
+a{
+	&:active
+	{
+		color: rgb(114,97,147);
+	}
+}
+
 html{
 	font-size: 62.5%;
 }

@@ -1,0 +1,49 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Estilos visuales
+5. Otros
+*/
+
+// With this class, we could make a mixin function from .header-image, ¿?
+.section1-image {
+  display: flex;
+  min-width: 320px;
+  max-width: 750px;
+  height: 100vh;
+
+  img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+}
+
+.div-content-text {
+  position: absolute;
+	margin-top: 80px;
+  padding-bottom: 2px;
+  padding-left: 30px;
+  // margin: 0;
+  min-width: 320px;
+  text-align: left;
+  color: #fff;
+	
+  h2 {
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+  }
+  hr {
+		width: 50px;
+  }
+  p {
+		width: 90%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 2.2rem;
+		font-size: 1.3rem;
+  }
+}

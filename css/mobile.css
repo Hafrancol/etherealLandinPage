@@ -39,7 +39,7 @@ header {
   display: block;
   min-width: 320px;
   max-width: 750px;
-  height: 40vh;
+  height: 55vh;
 }
 .header-image img {
   /* This is a shortcut to use it: .header-image img{}  , this is a option of sass to write into the class the tag or the class to not write again*/
@@ -93,3 +93,50 @@ header {
 }
 
 /* Here we add the header file but we write the code in header.scss*/
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Estilos visuales
+5. Otros
+*/
+.section1-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 320px;
+  max-width: 750px;
+  height: 100vh;
+}
+.section1-image img {
+  width: 100%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.div-content-text {
+  position: absolute;
+  margin-top: 80px;
+  padding-bottom: 2px;
+  padding-left: 30px;
+  min-width: 320px;
+  text-align: left;
+  color: #fff;
+}
+.div-content-text h2 {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 2rem;
+}
+.div-content-text hr {
+  width: 50px;
+}
+.div-content-text p {
+  width: 90%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  line-height: 2.2rem;
+  font-size: 1.3rem;
+}

@@ -133,3 +133,41 @@ header {
   padding-bottom: 10px;
   line-height: 2.2rem;
 }
+
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Estilos visuales
+5. Otros
+*/
+.section2-container {
+  background: #726193;
+  background: linear-gradient(22deg, #726193 25%, #c07383 53%, #efbc9d 90%);
+}
+
+.flex-gallery-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  gap: 15px;
+}
+.flex-gallery-icons i {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 17px;
+  width: 65px;
+  height: 65px;
+  border-style: solid;
+  color: #fff;
+}
+
+.gallery-flex-icon {
+  font-size: 1.7rem;
+}

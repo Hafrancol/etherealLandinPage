@@ -8,6 +8,33 @@
 
 .section2-container {
   @include background-header;
+	min-width: 320px;
+}
+
+.div-content-text2{
+	padding-top: 20px;
+	padding-left: 30px;
+  text-align: left;
+  color: rgb(255,255,255);
+	font-weight: bold;
+	
+  h2 {
+    width: 90%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+  }
+  hr {
+		width: 50px;
+  }
+  p {
+		width: 90%;
+		font-size: 1.3rem;
+		font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    line-height: 2.2rem;
+  }
 }
 
 .flex-gallery-icons {
@@ -19,23 +46,18 @@
     padding-bottom: 30px;
     margin-top: 30px;
     gap: 15px;
+		cursor: default;
+		pointer-events:none;
   }
 
-	li {
-		
-	}
-
-  a {
-
-	}
-
   i {
-    border-radius: 50%;
+		border-radius: 50%;
 		text-align: center;
-		padding-top: 17px;
+		padding-top: 20px;
+		padding-left: 0;
 		width: 65px;
     height: 65px;
-		border-style: solid;
+		border: 1px solid lightgrey;
     color: #fff;
   }
 }

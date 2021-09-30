@@ -39,7 +39,7 @@ header {
   display: block;
   min-width: 320px;
   max-width: 750px;
-  height: 40vh;
+  height: 55vh;
 }
 .header-image img {
   /* This is a shortcut to use it: .header-image img{}  , this is a option of sass to write into the class the tag or the class to not write again*/
@@ -93,3 +93,43 @@ header {
 }
 
 /* Here we add the header file but we write the code in header.scss*/
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Estilos visuales
+5. Otros
+*/
+.section1-image {
+  background-image: url("https://i.postimg.cc/v82fMqzZ/Small-second-Screen.jpg");
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-width: 320px;
+  height: 100vh;
+}
+
+.div-content-text {
+  padding: 80px 0 0 30px;
+  text-align: left;
+  color: #070707;
+  font-weight: bold;
+}
+.div-content-text h2 {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 2rem;
+}
+.div-content-text hr {
+  width: 50px;
+}
+.div-content-text p {
+  width: 90%;
+  font-size: 1.3rem;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  line-height: 2.2rem;
+}

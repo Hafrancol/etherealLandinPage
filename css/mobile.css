@@ -140,7 +140,6 @@ header {
 4. Estilos visuales
 5. Otros
 */
-
 .section2-container {
   background: #726193;
   background: linear-gradient(22deg, #726193 25%, #c07383 53%, #efbc9d 90%);
@@ -199,7 +198,15 @@ header {
 
 .gallery-flex-icon {
   font-size: 1.7rem;
+}
 
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Estilos visuales
+5. Otros
+*/
 .section3 {
   min-width: 320px;
   height: 550px;

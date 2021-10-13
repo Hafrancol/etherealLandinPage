@@ -140,66 +140,6 @@ header {
 4. Estilos visuales
 5. Otros
 */
-
-.section2-container {
-  background: #726193;
-  background: linear-gradient(22deg, #726193 25%, #c07383 53%, #efbc9d 90%);
-  min-width: 320px;
-}
-
-.div-content-text2 {
-  padding-top: 20px;
-  padding-left: 30px;
-  text-align: left;
-  color: white;
-  font-weight: bold;
-}
-.div-content-text2 h2 {
-  width: 90%;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  font-size: 2rem;
-}
-.div-content-text2 hr {
-  width: 50px;
-}
-.div-content-text2 p {
-  width: 90%;
-  font-size: 1.3rem;
-  font-weight: 100;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  line-height: 2.2rem;
-}
-
-.flex-gallery-icons ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  margin-top: 30px;
-  gap: 15px;
-  cursor: default;
-  pointer-events: none;
-}
-.flex-gallery-icons i {
-  border-radius: 50%;
-  text-align: center;
-  padding-top: 20px;
-  padding-left: 0;
-  width: 65px;
-  height: 65px;
-  border: 1px solid lightgrey;
-  color: #fff;
-}
-
-.gallery-flex-icon {
-  font-size: 1.7rem;
-
 .section3 {
   min-width: 320px;
   height: 550px;

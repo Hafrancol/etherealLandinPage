@@ -140,56 +140,63 @@ header {
 4. Estilos visuales
 5. Otros
 */
-.section3 {
+.section2-container {
+  background: #726193;
+  background: linear-gradient(22deg, #726193 25%, #c07383 53%, #efbc9d 90%);
   min-width: 320px;
-  height: 550px;
 }
 
-.section3-background {
-  min-width: 320px;
-  height: 80vh;
-  background-image: url("https://i.postimg.cc/5NLhVwN7/bgsection3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.section3-container-text {
-  padding: 80px 0 0 30px;
+.div-content-text2 {
+  padding-top: 20px;
+  padding-left: 30px;
   text-align: left;
   color: white;
+  font-weight: bold;
 }
-.section3-container-text h2 {
-  margin-bottom: 15px;
-  color: white;
+.div-content-text2 h2 {
+  width: 90%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-size: 2rem;
 }
-.section3-container-text hr {
+.div-content-text2 hr {
   width: 50px;
 }
-.section3-container-text p {
+.div-content-text2 p {
   width: 90%;
-  margin-top: 15px;
+  font-size: 1.3rem;
+  font-weight: 100;
+  padding-top: 15px;
+  padding-bottom: 10px;
   line-height: 2.2rem;
 }
 
-.information {
-  min-width: 320px;
-  background: #c77482;
-  background: linear-gradient(153deg, #c77482 31%, #d7777a 56%, #e88f86 72%);
+.flex-gallery-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  gap: 15px;
+  cursor: default;
+  pointer-events: none;
+}
+.flex-gallery-icons i {
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 0;
+  width: 65px;
+  height: 65px;
+  border: 1px solid lightgrey;
+  color: #fff;
 }
 
-.information-container-text {
-  padding: 30px 0 0 20px;
-  color: white;
+.gallery-flex-icon {
+  font-size: 1.7rem;
 }
-.information-container-text h2 {
-  margin-bottom: 15px;
-}
-.information-container-text hr {
-  width: 50px;
-}
-.information-container-text p {
-  width: 90%;
-  margin-top: 15px;
-  line-height: 2.2rem;
-}
+

@@ -1,0 +1,39 @@
+/*
+1. Posicionamiento
+2. Modelo de caja
+3. Tipografia
+4. Estilos visuales
+5. Otros
+*/
+
+.section7{
+	min-width: 320px;
+	height: 100%;
+}
+
+.contact-container-text{
+	padding: 80px 0 0 30px;
+	text-align:left;
+	color: #fff;
+	background: #42275a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+	h2{
+		margin-bottom: 15px;
+		color: #fff;
+	}
+	hr{
+		width: 50px;
+	}
+	p{
+		width: 90%;
+		margin-top: 15px;
+		padding-bottom: 40px;
+		line-height: 2.2rem;
+	}
+
+}
